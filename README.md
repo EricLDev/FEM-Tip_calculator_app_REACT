@@ -1,6 +1,6 @@
 ### Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-using-reactgridflexbox-SJbMzM8Qc]
 - Live Site URL: [https://ericl81.github.io/FEM-Tip_calculator_app_REACT/]
 
 # Frontend Mentor - Tip calculator app
