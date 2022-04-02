@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import classes from "./Form.module.css";
 import ResultCard from "./ResultCard";
 import dollar from "../images/icon-dollar.svg";
@@ -12,7 +12,6 @@ const Form = () => {
 	};
 
 	const [values, setValues] = useState(initialValues);
-	const inputCustomTip = useRef();
 
 	const handleOnChange = (e) => {
 		const name = e.target.name;
@@ -20,18 +19,9 @@ const Form = () => {
 		setValues({ ...values, [name]: value });
 	};
 
-	/* 	const handleSubmit = (e) => {
-		e.preventDefault();
-		console.log(values);
-	}; */
-
 	const resetForm = () => {
 		setValues(initialValues);
 	};
-
-	useEffect(() => {
-		console.log(values);
-	}, [values]);
 
 	return (
 		<div className={classes.form}>
@@ -75,7 +65,7 @@ const Form = () => {
 							</label>
 						</div>
 						<div>
-							<input ref={inputCustomTip} onChange={handleOnChange} className={classes.customInput} type="text" id="customInput" name="tip" placeholder="Custom" />
+							<input onChange={handleOnChange} className={classes.customInput} type="text" id="customInput" name="tip" placeholder="Custom" />
 						</div>
 					</div>
 				</div>

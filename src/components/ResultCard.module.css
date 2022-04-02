@@ -55,5 +55,26 @@ button.inactiveButton {
 
 button.activeButton:hover {
     background-color: hsl(172, 61%, 68%);
+}
 
+@media screen and (min-width: 768px) {
+    .resultCard {
+        padding: 2rem;
+        padding-top: 3.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .amount {
+        font-size: 2.5rem;
+    }
+
+    .wrapper {
+        align-items: center;
+    }
+
+    button {
+        font-size: 1rem;
+    }
 }

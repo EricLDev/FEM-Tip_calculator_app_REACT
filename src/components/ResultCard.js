@@ -28,19 +28,21 @@ const ResultCard = ({ bill, tip, people, resetForm }) => {
 	};
 	return (
 		<div className={classes.resultCard}>
-			<div className={classes.wrapper}>
-				<div className={classes.label}>
-					<p>Tip Amount</p>
-					<p>/ person</p>
+			<div>
+				<div className={classes.wrapper}>
+					<div className={classes.label}>
+						<p>Tip Amount</p>
+						<p>/ person</p>
+					</div>
+					<div className={classes.amount}>${isFinite(tipPerPerson) ? tipPerPerson : "0.00"}</div>
 				</div>
-				<div className={classes.amount}>${tipPerPerson}</div>
-			</div>
-			<div className={classes.wrapper}>
-				<div className={classes.label}>
-					<p>Total</p>
-					<p>/ person</p>
+				<div className={classes.wrapper}>
+					<div className={classes.label}>
+						<p>Total</p>
+						<p>/ person</p>
+					</div>
+					<div className={classes.amount}>${isFinite(totalPerPerson) ? totalPerPerson : "0.00"}</div>
 				</div>
-				<div className={classes.amount}>${totalPerPerson}</div>
 			</div>
 			<button className={!totalPerPerson ? classes.inactiveButton : classes.activeButton} onClick={handleReset}>
 				Reset

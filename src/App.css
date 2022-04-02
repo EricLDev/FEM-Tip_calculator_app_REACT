@@ -9,3 +9,14 @@
   color: hsl(183, 100%, 15%);
   letter-spacing: .5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+}

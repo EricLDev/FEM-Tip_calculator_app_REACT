@@ -28,7 +28,6 @@
     position: absolute;
     top: 2.9rem;
     left: 1rem;
-
 }
 
 .inputGroup {
@@ -117,4 +116,45 @@
 
 input.error {
     border: 2px solid red !important;
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .form form {
+        padding: 1rem 2.5rem 1rem 1rem;
+        margin-bottom: 0;
+    }
+
+    .gridTip {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: .75rem;
+    }
+
+    .form form label, .inputGroup p:nth-child(1) {
+        font-size: .85rem;
+    }
+
+    .form .inputGroup:nth-of-type(1) input,
+    .form .inputGroup:nth-of-type(3) input,
+    .customInput {
+        font-size: 1.25rem;
+    }
+
+    .gridTip label {
+        font-size: 1.25rem !important;
+    }
+
+    .form form img {
+        top: 2.6rem;
+    }
+
+    .form form .inputGroup:nth-of-type(2) {
+        margin: 2.5rem 0;
+    }
 }
