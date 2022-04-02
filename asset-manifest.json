@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FEM-Tip_calculator_app_REACT/static/css/main.653e7ddf.css",
+    "main.js": "/FEM-Tip_calculator_app_REACT/static/js/main.c67ae7a3.js",
+    "static/js/787.a9ad12f7.chunk.js": "/FEM-Tip_calculator_app_REACT/static/js/787.a9ad12f7.chunk.js",
+    "static/media/icon-dollar.svg": "/FEM-Tip_calculator_app_REACT/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
+    "static/media/icon-person.svg": "/FEM-Tip_calculator_app_REACT/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
+    "index.html": "/FEM-Tip_calculator_app_REACT/index.html",
+    "main.653e7ddf.css.map": "/FEM-Tip_calculator_app_REACT/static/css/main.653e7ddf.css.map",
+    "main.c67ae7a3.js.map": "/FEM-Tip_calculator_app_REACT/static/js/main.c67ae7a3.js.map",
+    "787.a9ad12f7.chunk.js.map": "/FEM-Tip_calculator_app_REACT/static/js/787.a9ad12f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.653e7ddf.css",
+    "static/js/main.c67ae7a3.js"
+  ]
+}
