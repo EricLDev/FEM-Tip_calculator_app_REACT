@@ -3,7 +3,7 @@
   padding-top: 2.5rem;
 }
 
-.App div {
+.splitter {
   font-size: 1.5rem;
   text-transform: uppercase;
   color: hsl(183, 100%, 15%);
